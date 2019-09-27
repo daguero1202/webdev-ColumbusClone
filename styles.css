@@ -1,24 +1,41 @@
 
-ul {
-    border: 25px;
-    padding: 5px;
-    background-color: #10243B;
-    border-left: 0px;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+#navbar {
+    height: 70px;
+    background-color: #10243b;
+    border-left: 0%;
+    padding-left: .5%;
 }
 
 
-ul li {
+ul li{
+    float: left;
     list-style-type: none;
-    display: inline;
-    border: 0px;
-    padding: 15px;
+    padding: 0%;
+    padding-right: 1%;
+}
+.subjects {
     color: white;
     text-transform: uppercase;
+    line-height: 70px;
+    font-weight: bold;
 }
-ul li:nth-child(7){
-    padding-right: 350px;
+#right {
+    float: right;
+    padding-right: 5.3%;
+    padding-left: .7%;
+}
+.subjects2 {
+    color: #94c9d4;
+    text-transform: uppercase;
+    line-height: 70px;
+    padding-right: 1.5%;
+}
+
+.messedup {
+    color: white;
 }
