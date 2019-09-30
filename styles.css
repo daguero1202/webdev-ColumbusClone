@@ -11,31 +11,39 @@
     padding-left: .5%;
 }
 
-
 ul li{
     float: left;
     list-style-type: none;
-    padding: 0%;
-    padding-right: 1%;
+    padding: 11px 10px;
+    font-size: 1rem;
+    line-height: 45px;
 }
 .subjects {
     color: white;
     text-transform: uppercase;
-    line-height: 70px;
     font-weight: bold;
 }
 #right {
-    float: right;
-    padding-right: 5.3%;
-    padding-left: .7%;
+    float: left;
+    padding-right: .5%;
+    padding-left: 10%;
 }
 .subjects2 {
     color: #94c9d4;
     text-transform: uppercase;
     line-height: 70px;
     padding-right: 1.5%;
+    padding-left: 1.5%;
 }
 
-.messedup {
-    color: white;
+
+
+/* -----------------------    HERO    ------------------------------- */
+
+#hero{
+    background-image: url(images/fans.jpg);
+    background-position: center;
+    background-size: center;
+    width: 100%;
+    height: 100%;
 }
