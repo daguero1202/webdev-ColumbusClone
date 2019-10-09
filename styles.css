@@ -98,7 +98,36 @@ ul li{
     font-style: italic;
 }
 
-/* ----------------------------- MIDDLE SECTION --------------------------- */
+/* ----------------------------- EXPLORE SECTION --------------------------- */
 
+#exploresection {
+    width: 100%;
+    height: 400px;
+    background-color: thistle;
+}
 
+#exploreheader {
+    height: 70px;
+    width: 100%;
+    background-color: #10243b;
+    color: white;
+    font-size: 1em;
+    text-align: center;
+    padding-top: 9px;
+    border-bottom: 8px solid skyblue;
+}
+#exploreheader img{
+    padding-top: 5px;
+}
 
+#explorecontent {
+    height: 330px;
+    width: 100%;
+    background-color: firebrick;
+    display: inline;
+}
+.explorebox {
+    height: 328px;
+    width: 25%;
+    background-color: orangered;
+}
