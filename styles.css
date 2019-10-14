@@ -131,3 +131,62 @@ ul li{
     width: 25%;
     background-color: orangered;
 }
+#patriot{
+    background-image: url(images/patriots\ plaza.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#college{
+    background-image: url(images/college.png);
+    background-position: center;
+    background-size: cover;
+}
+#ccnn{
+    background-image: url(images/ccnn.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#media{
+    background-image: url(images/ccnn\ live.png);
+    background-position: center;
+    background-size: cover;
+}
+
+/* ------------------------------------------CCHS GLANCE---------------------------------- */
+
+#glancesection{
+    font-family: "PT Sans Narrow",sans-serif;
+    width: 100%;
+    height: 400px;
+}
+#glanceheader{
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    color: #00344c;
+    font-size: 1.6em;
+    margin-bottom: 30px;
+}
+.glancebox {
+    display: inline;
+    width: 25%;
+    height: 340px;
+    text-align: center;
+}
+.glancebox img{
+    width: 60%;
+}
+.glancebox h3{
+    color: #ca0d33;
+    font-size: 1.87em;
+    margin-bottom: 10px;
+    letter-spacing: .05em;
+}
+.glancebox p{
+    color: #333;
+    font-size: 1.2em;
+}
+
+
+
+
