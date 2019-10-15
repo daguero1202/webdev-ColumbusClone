@@ -167,6 +167,7 @@ ul li{
     font-size: 1.6em;
     margin-bottom: 30px;
 }
+
 .glancebox {
     display: inline;
     width: 25%;
@@ -187,6 +188,23 @@ ul li{
     font-size: 1.2em;
 }
 
+/* --------------------------------- STAT BOX ---------------------- */
 
+#statbox{
+    width: 100%;
+    height: 300px;
+    margin-top: 100px;
+    padding-top: 20px;
+}
+#statcontent{
+    width: 70%;
+    height: 60px;
+    background-color: #23354a;
+    color: white;
+    font-size: 2em;
+    margin: 0% auto;
+    padding-top: 20px;
+    text-align: center;
+}
 
 
